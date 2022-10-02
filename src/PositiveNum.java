@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class positiveNum {
+public class PositiveNum {
 
 
     public static void main(String[] args) {
@@ -17,6 +17,10 @@ public class positiveNum {
             System.out.printf("%d Menfi eded", say);
         else
             System.out.printf("%d Sifirdir", say);
+
+        if(say%2==0){
+            System.out.println("a cut ededdi");
+        }else System.out.println("A tekdi");
 
     }
 }
