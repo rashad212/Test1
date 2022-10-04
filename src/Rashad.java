@@ -18,10 +18,10 @@ public class Rashad {
             a = a / 10;
         }
         if (x==r){
-            System.out.println(r + " Polindromdur");
+            System.out.println(r + " Palindromdur");
         }
         else {
-            System.out.println(x + " Polindrom deyil");
+            System.out.println(x + " Palindrom deyil");
         }
         }
     }

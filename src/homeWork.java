@@ -1,8 +1,12 @@
 //import java.util.Scanner;
+
+import java.time.DayOfWeek;
+import java.util.ArrayList;
+import java.util.List;
+
+public class homeWork{
 //
-//public class homeWork{
-//
-//    public static void main(String[] args) {
+    public static void main(String[] args) {
 //
 //        Scanner input = new Scanner(System.in);
 //int a, b ;
@@ -42,6 +46,14 @@
 //        else {
 ////            System.out.println("B en balaca saydir.");
 ////        }
-////    }
+         boolean keepGoing = true;
+         int result = 15, meters = 10;
+         do {
+             meters--;
+             if(meters==8) keepGoing = false;
+             result -= 2;
+             } while (keepGoing);
+         System.out.println(result);
+    }
 //
-//}
+}
