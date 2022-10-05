@@ -3,10 +3,11 @@
 import java.time.DayOfWeek;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class homeWork{
 //
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
 //
 //        Scanner input = new Scanner(System.in);
 //int a, b ;
@@ -46,14 +47,32 @@ public class homeWork{
 //        else {
 ////            System.out.println("B en balaca saydir.");
 ////        }
-         boolean keepGoing = true;
-         int result = 15, meters = 10;
-         do {
-             meters--;
-             if(meters==8) keepGoing = false;
-             result -= 2;
-             } while (keepGoing);
-         System.out.println(result);
+//         boolean keepGoing = true;
+//         int result = 15, meters = 10;
+//         do {
+//             meters--;
+//             if(meters==8) keepGoing = false;
+//             result -= 2;
+//             } while (keepGoing);
+//         System.out.println(result);
+  public static void main (String[] args){
+    Scanner scan = new Scanner( System.in);
+    int toplama = 0;
+    int input;
+    while(true) {
+      System.out.println("Bir eded daxil edin : ");
+      input = scan.nextInt();
+
+      if (input < 0) {
+        System.out.println("Emeliyyat Bitdi, Menfi Eded girdiniz!!");
+        System.out.println("Daxil edilen tek ededler toplami : " + toplama);
+        break;
+      }
+      if (input %2 == 1 ) {
+      toplama += input;
+      }
+      }
     }
-//
-}
+  }
+
+
