@@ -1,12 +1,10 @@
-//import java.util.Scanner;
-
 import java.time.DayOfWeek;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class homeWork{
-//
+
+// TEST 1 .................................................
 //    public static void main(String[] args) {
 //
 //        Scanner input = new Scanner(System.in);
@@ -55,24 +53,53 @@ public class homeWork{
 //             result -= 2;
 //             } while (keepGoing);
 //         System.out.println(result);
-  public static void main (String[] args){
-    Scanner scan = new Scanner( System.in);
-    int toplama = 0;
-    int input;
-    while(true) {
-      System.out.println("Bir eded daxil edin : ");
-      input = scan.nextInt();
 
-      if (input < 0) {
-        System.out.println("Emeliyyat Bitdi, Menfi Eded girdiniz!!");
-        System.out.println("Daxil edilen tek ededler toplami : " + toplama);
-        break;
-      }
-      if (input %2 == 1 ) {
-      toplama += input;
-      }
-      }
+// TEST 2 ............................................................
+//  public static void main (String[] args){
+//    Scanner scan = new Scanner( System.in);
+//    int toplama = 0;
+//    int input;
+//    while(true) {
+//      System.out.println("Bir eded daxil edin : ");
+//      input = scan.nextInt();
+//
+//      if (input < 0) {
+//        System.out.println("Emeliyyat Bitdi, Menfi Eded girdiniz!!");
+//        System.out.println("Daxil edilen tek ededler toplami : " + toplama);
+//        break;
+//      }
+//      if (input %2 == 1 ) {
+//      toplama += input;
+//      }
+//      }
+//    }
+//  }
+// TEST 3 .........................................................................................
+public class homeWork {
+    public static void main(String[] args) {
+xxxx();
     }
-  }
+public static void xxxx () {
+        int x = 1;
 
+        while (x <= 300) {
+            int y = 2;
+
+            while (x > y) {
+
+                if (x % y == 0) {
+                    break;
+                } else
+                    y++;
+            }
+            if (x == y) {
+                System.out.println(y);
+            }
+            if (x == 1) {
+                System.out.println(x);
+            }
+            x++;
+        }
+    }
+}
 
