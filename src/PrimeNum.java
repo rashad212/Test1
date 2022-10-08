@@ -1,9 +1,8 @@
 public class PrimeNum {
 
     public static void main(String[] args) {
-    primeNumber();
+        primeNumber();
     }
-
     public static void primeNumber() {
         int a = 1;
 
@@ -15,13 +14,13 @@ public class PrimeNum {
                 } else
                     b++;
             }
-          if (a == b){
-              System.out.println(a);
-          }
-          if (a==1){
-              System.out.println(a);
-          }
-          a++;
+            if (a == b) {
+                System.out.println(a);
+            }
+            if (a == 1) {
+                System.out.println(a);
+            }
+            a++;
         }
     }
 }

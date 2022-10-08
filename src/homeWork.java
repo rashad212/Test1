@@ -75,31 +75,31 @@ import java.util.Scanner;
 //    }
 //  }
 // TEST 3 .........................................................................................
-public class homeWork {
-    public static void main(String[] args) {
-xxxx();
-    }
-public static void xxxx () {
-        int x = 1;
-
-        while (x <= 300) {
-            int y = 2;
-
-            while (x > y) {
-
-                if (x % y == 0) {
-                    break;
-                } else
-                    y++;
-            }
-            if (x == y) {
-                System.out.println(y);
-            }
-            if (x == 1) {
-                System.out.println(x);
-            }
-            x++;
-        }
-    }
-}
-
+//public class homeWork {
+//    public static void main(String[] args) {
+//xxxx();
+//    }
+//public static void xxxx () {
+//        int x = 1;
+//
+//        while (x <= 300) {
+//            int y = 2;
+//
+//            while (x > y) {
+//
+//                if (x % y == 0) {
+//                    break;
+//                } else
+//                    y++;
+//            }
+//            if (x == y) {
+//                System.out.println(y);
+//            }
+//            if (x == 1) {
+//                System.out.println(x);
+//            }
+//            x++;
+//        }
+//    }
+//}
+// TEST 4 ......................................................................................
