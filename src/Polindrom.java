@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Rashad {
+public class Polindrom {
 
 
     public static void main(String[] args) {

@@ -9,6 +9,5 @@ public class Ts1vs5 {
             }
             a++;
         }
-
     }
 }

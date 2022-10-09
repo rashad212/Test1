@@ -15,7 +15,6 @@ public class Task3vs7 {
             c = b;
             d = a;
         }
-
         while (c <= d) {
             if (c % 3 == 0 && c % 7 == 0) {
                 System.out.println(c);
