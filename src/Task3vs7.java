@@ -16,11 +16,20 @@ public class Task3vs7 {
             d = a;
         }
 
-        while (c <= d) {
+//        for(int i=c;i <= d;i++)
+//            if (i % 3 == 0 && i % 7 == 0)
+//                System.out.println(i);
+
+
+        for (;c<=d;c++)
             if (c % 3 == 0 && c % 7 == 0) {
                 System.out.println(c);
             }
-            c++;
-        }
+//        while (c <= d) {
+//            if (c % 3 == 0 && c % 7 == 0) {
+//                System.out.println(c);
+//            }
+//            c++;
+//        }
     }
 }
