@@ -11,12 +11,12 @@ public class ArrayT2 {
                 int[] tamEdedler = new int[sc.nextInt()];
 
                 for (int i = 0; i < tamEdedler.length; i++) {
-                 System.out.println(i + "index = ");
+                 System.out.println(i + " index = ");
                  System.out.println(tamEdedler[i] = sc.nextInt());
                 }
         Arrays.sort(tamEdedler);
-        for (int i : tamEdedler) {
-            System.out.println(i);
+        for (int i1 : tamEdedler) {
+            System.out.println("-"+i1);
         }
     }
 }
