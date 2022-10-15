@@ -34,10 +34,9 @@ public class ArrayT2 {
                 System.out.println(index);
             }
             index++;
-            if (x != number) {
+            if (number < x) {
                 System.out.println(b + 1);
                }
-
         }
     }
 }

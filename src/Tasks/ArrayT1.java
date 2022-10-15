@@ -27,7 +27,7 @@ public class ArrayT1 {
             int l = 0;
             int r = eded.length - 1;
 
-        int target ;
+        int  target = 0;
             int midIndex;
             while (l <= r) {
                 midIndex = l + (r - l) / 2;
@@ -38,4 +38,3 @@ public class ArrayT1 {
             return l;
         }
     }
-}
