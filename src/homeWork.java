@@ -1,5 +1,6 @@
 import java.time.DayOfWeek;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -103,3 +104,27 @@ import java.util.Scanner;
 //    }
 //}
 // TEST 4 ......................................................................................
+
+public class homeWork {
+    public static void main(String[] args) {
+
+        int[][] arr = new int[][]{
+                {4, 3, 5},
+                {2, 4, 6},
+                {7, 8, 9}
+        };
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[0].length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+        int dioqonal = arr[0][0] + arr[1][1] + arr[2][2] + arr[0][2] + arr[2][00];
+        System.out.println("2D massivin diogonallarinin cemi buna beraberdir: ");
+        System.out.println(" " + dioqonal);
+
+
+
+    }
+}
