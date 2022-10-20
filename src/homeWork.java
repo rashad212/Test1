@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+public class homeWork {
+    public static void main(String[] args) {
 
 // TEST 1 .................................................
 //    public static void main(String[] args) {
@@ -105,24 +107,43 @@ import java.util.Scanner;
 //}
 // TEST 4 ......................................................................................
 
-public class homeWork {
-    public static void main(String[] args) {
 
-        int[][] arr = new int[][]{
-                {4, 3, 5},
-                {2, 4, 6},
-                {7, 8, 9}
-        };
+//        int[][] arr = new int[][]{
+//                {4, 3, 5},
+//                {2, 4, 6},
+//                {7, 8, 9}
+//        };
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr[0].length; j++) {
+//                System.out.print(arr[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
+//        int dioqonal = arr[0][0] + arr[1][1] + arr[2][2] + arr[0][2] + arr[2][00];
+//        System.out.println("2D massivin diogonallarinin cemi buna beraberdir: ");
+//        System.out.println(" " + dioqonal);
 
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[0].length; j++) {
-                System.out.print(arr[i][j] + " ");
-            }
-            System.out.println();
-        }
-        int dioqonal = arr[0][0] + arr[1][1] + arr[2][2] + arr[0][2] + arr[2][00];
-        System.out.println("2D massivin diogonallarinin cemi buna beraberdir: ");
-        System.out.println(" " + dioqonal);
+//  TEST 5 .........................................................................................
+//        String a = new Scanner(System.in).nextLine();
+//
+//        String string = "anima\nls";
+//        System.out.println(string);
+//        System.out.println(string.length());
+//        System.out.println(string.charAt(3));
+//        System.out.println(string.indexOf("a", 2));
+
+
+//        System.out.println(a);
+
+//        System.out.println(a.indexOf('a',4));
+//        System.out.println(a.substring(5));
+//        System.out.println(a.substring(a.indexOf('a',2)));
+//        System.out.println(a.toUpperCase());
+//        System.out.println(a.toLowerCase());
+//        System.out.println(a.endsWith("m"));
+//        System.out.println(a.replace('a','A'));
+//       System.out.println(a.contains("b"));
 
 
 
