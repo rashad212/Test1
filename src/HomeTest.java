@@ -1,10 +1,4 @@
-import java.time.DayOfWeek;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-
-public class homeWork {
+public class HomeTest {
     public static void main(String[] args) {
 
 // TEST 1 .................................................
@@ -145,7 +139,10 @@ public class homeWork {
 //        System.out.println(a.replace('a','A'));
 //       System.out.println(a.contains("b"));
 
-
+        String alpha = "";
+         for(char current = 'a'; current <= 'z'; current++)
+             alpha += current;
+         System.out.println(alpha);
 
     }
 }
