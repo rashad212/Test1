@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class HomeTest {
     public static void main(String[] args) {
 
@@ -139,10 +141,15 @@ public class HomeTest {
 //        System.out.println(a.replace('a','A'));
 //       System.out.println(a.contains("b"));
 
-        String alpha = "";
-         for(char current = 'a'; current <= 'z'; current++)
-             alpha += current;
-         System.out.println(alpha);
+// TEST 6 ...........................................................
+//        String alpha = "";
+//         for(char current = 'a'; current <= 'z'; current++)
+//             alpha += current;
+//         System.out.println(alpha);
 
+// TEST 7 .............................................................
+        Random a = new Random();
+        int b = a.nextInt(100);
+        System.out.println(b);
     }
 }
