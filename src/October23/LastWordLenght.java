@@ -3,15 +3,22 @@ package October23;
 public class LastWordLenght {
     public static void main(String[] args) {
 
-        String text = "hello world tyr";
-        int i = text.length() - 1, length = 0;
+        String text = "hello qwer    ";
+        int sonuncuIndex = text.length() - 1;
 
-     //   while (i >= 0 && text.charAt(i) == ' ')
-
-        while (i >= 0 && text.charAt(i) != ' ') {
-            length++;
-            i--;
+        while (sonuncuIndex >= 0 && text.charAt(sonuncuIndex) == ' '){
+            sonuncuIndex--;
         }
-        System.out.println(length);
+        int sonIndex=sonuncuIndex+1;
+
+
+        while (sonuncuIndex >= 0 && text.charAt(sonuncuIndex) != ' '){
+            sonuncuIndex--;
+
+        }
+        int ilkIndex=sonuncuIndex+1;
+
+        System.out.println(text.substring(ilkIndex,sonIndex));
+
     }
 }

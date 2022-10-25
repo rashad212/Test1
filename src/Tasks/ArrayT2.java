@@ -29,15 +29,25 @@ public class ArrayT2 {
 
         int index = 0;
         int b = 0;
-        for (int x : array) {
-            if (number == x) {
-                System.out.println(index);
+
+        for (int i = 0; i < array.length; i++) {
+            if (number == array[i]) {
+                System.out.println(i);
             }
-            index++;
-            if (number < x) {
-                System.out.println(b + 1);
-               }
+            if (number<array[i]) {
+                System.out.println(i);
+            }
         }
+//        for (int x : array) {
+//            if (number == x) {
+//                System.out.println(index);
+//            }
+//            index++;
+//            if (x != number) {
+//                System.out.println(b + 1);
+//               }
+//
+//        }
     }
 }
 

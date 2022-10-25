@@ -16,12 +16,12 @@ public class LetterCounter {
 //            System.out.println(herf);
 //               }
 // ------------------------------------------------------------
-       String text = "Bu cumlede en cox tekrarlanan herf hansidir?";
-
-        int textUzunlugu = text.length();
-        int tekrarHerfSayi = text.replace("","").length();
-        int count= textUzunlugu-tekrarHerfSayi;
-        System.out.println("Tekrar sayi:"+ count);
+//       String text = "Bu cumlede en cox tekrarlanan herf hansidir?";
+//
+//        int textUzunlugu = text.length();
+//        int tekrarHerfSayi = text.replace("","").length();
+//        int count= textUzunlugu-tekrarHerfSayi;
+//        System.out.println("Tekrar sayi:"+ count);
 // ------------------------------------------------------------
 //        Scanner sc = new Scanner(System.in);
 //        System.out.println("String daxil edin:");
@@ -41,19 +41,25 @@ public class LetterCounter {
 //            }
 //        }
 // --------------------------------------------------------------------
-//        String str = "bu cumledeki duplicate herfleri tapin";
-//
-//        int length = str.length();
-//        char[] ch = str.toCharArray();
-//        for (int i = 0; i < length; i++) {
-//            for (int j = i + 1; j < length; j++) {
-//
-//                if (ch[i] == ch[j]) {
+        String str = "bu cumledeki duplicate herfleri tapin";
+        int max=0; String sd="";
+        int length = str.length();
+        char[] ch = str.toCharArray();
+        for (int i = 0; i < length; i++) {
+            int count=1;
+            for (int j = i + 1; j < length; j++) {
+                if (ch[i] == ch[j]) {
+                    count++;
+                    if(max<count) {
+                        max = count;
+                        sd=ch[i]+"";
+                    }
 //                    System.out.println("Tekrar: " + ch[j]+"");
 //                    break;
-//                }
-//            }
-//        }
+                }
+            }
+
+        } System.out.println(max+"   "+ sd);
 
     }
 }

@@ -4,11 +4,10 @@ package October23;
 class RemoveStar {
 
     public static void main(String[] args) {
-        String s1 = "leet**cod*e";
+        String s1 = "*leet**cod*e**";
         System.out.println(removeStar(s1));
     }
     public static String removeStar(String s) {
-
         StringBuilder sb = new StringBuilder();
         int lenght = s.length(), counter = 0;
 
