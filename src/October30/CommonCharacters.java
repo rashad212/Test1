@@ -1,31 +1,42 @@
 package October30;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CommonCharacters {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            String [] words = new String[]{"Rashad","Farid","Chingiz"};
-            String [] character = {};
-            System.out.println(common(words,character));
+        String[] words = new String[]{"cool", "lock", "cook"};
+        for (String a : commonChars(words)) {
+            System.out.println(a);
 
         }
-        static boolean common(String[] words, String[] character) {
+        ;
 
-            for(int i = 0; i < words[0].length(); i++){
-                String ch = String.valueOf(words[0].charAt(i));
-                boolean isTrue = false;
-                for(int j = 1; j < words.length; j++){
-                    if(words[j].contains(ch)){
-                        words[j] = words[j].replaceFirst(ch,"");
-                        isTrue = true;
-                    }else{
-                        isTrue = false;
-                        break;
-                    }
+    }
+
+    public static List<String> commonChars(String[] words) {
+        List<String> nese = new ArrayList<>();
+
+        for (int i = 0; i < words[0].length(); i++) {
+            int count = 0;
+            String ch = String.valueOf(words[0].charAt(i));
+            for (int j = 1; j < words.length; j++) {
+                if (words[j].contains(ch)) {
+                    count++;
+                    words[j] = words[j].replaceFirst(ch, "");
+                } else {
+                    break;
                 }
-            }
+                if (count == words.length - 1) {
+                    nese.add(ch);
+                }
 
-   return true; }
+            }
+        }
+        return nese;
+    }
 }
 
 
