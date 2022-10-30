@@ -38,7 +38,7 @@ public class PlusOne {
         int[] num= {1,2,3};
             int n = num.length;
             for(int i =n-1;i>=0;i--){
-                if(num[i]<=9){
+                if(num[i]<9){
                     num[i]++;
                     System.out.println(num.length);
                 }
