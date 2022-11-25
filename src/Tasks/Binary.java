@@ -1,3 +1,5 @@
+package Tasks;
+
 import java.util.Scanner;
 
 public class Binary {
@@ -16,7 +18,7 @@ public class Binary {
           number = number / 2;
           i++;
       }
-      System.out.print("Binary cavabi:");
+      System.out.print("Tasks.Binary cavabi:");
       for(int j=i-1; j>=0;j--)
 
       System.out.print(""+binary[j]);

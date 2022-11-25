@@ -1,6 +1,6 @@
+package TestGetSet;
 
-
-public class Testing {
+public class Student5 {
     public static int a = 3;
     public  int b = 3;
 
@@ -13,19 +13,10 @@ public class Testing {
     static {
         int a=5;
         System.out.println(a);
-    }public Testing(){
+    }public Student5(){
         System.out.println("sefer");
     }
 
-  ;
-    }
-
-
-
-
-
-
-
-
-
+    ;
+}
 
