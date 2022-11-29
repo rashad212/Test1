@@ -1,19 +1,16 @@
 package Jdm;
 
-public class JdmCars {
+public abstract class JdmCars {
     String brand;
-    String engine;
-    String transmission;
+    Engine engine;
+    Transmission transmission;
+    Model model;
 
-    public JdmCars(String brand, String engine, String transmission) {
+    public JdmCars(String brand, Engine engine, Transmission transmission,Model model) {
         this.brand = brand;
         this.engine = engine;
         this.transmission=transmission;
-    }
-
-
-    public JdmCars() {
-
+        this.model=model;
     }
 
     @Override

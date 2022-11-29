@@ -3,8 +3,9 @@ package GenericPractice;
 public class Animal {
 
     String cat;
+
     public Animal(String cat) {
-        this.cat=cat;
+        this.cat = cat;
     }
 
     @Override

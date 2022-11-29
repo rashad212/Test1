@@ -1,13 +1,12 @@
 package Jdm;
 
-public class Engine extends JdmCars {
+public class Engine  {
     String type;
     String size;
     Integer horsePower;
     Integer torque;
 
     public Engine(String type, String size, Integer hp, Integer torque) {
-        super();
         this.type = type;
         this.size = size;
         this.horsePower = hp;

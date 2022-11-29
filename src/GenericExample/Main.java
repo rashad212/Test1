@@ -22,14 +22,15 @@ public class Main {
         Double[] doubleArr = {1.1, 2.1, 3.1};
         Character[] chArr = {'A', 'B', 'C'};
 
-        genericMethod(intArr);
-        genericMethod(doubleArr);
-        genericMethod(chArr);
+        GenericMethod genericMethod= new GenericMethod();
+        genericMethod.genericMethod(intArr);
+        genericMethod.genericMethod(doubleArr);
+        genericMethod.genericMethod(chArr);
     }
 
-    public static  <E> void genericMethod(E[] arr) {
-        for (E item : arr) {
-            System.out.println(item);
-        }
-    }
+//    public static  <E> void genericMethod(E[] arr) {
+//        for (E item : arr) {
+//            System.out.println(item);
+//        }
+//    }
 }

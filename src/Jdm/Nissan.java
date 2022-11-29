@@ -1,8 +1,9 @@
 package Jdm;
 
 public class Nissan extends JdmCars{
-    public Nissan(String model, String engine, String transmission, Engine twinturbo, Model model1) {
-        super(model, engine, transmission);
+
+    public Nissan(String brand, Transmission transmission, Engine engine, Model model) {
+        super(brand, engine, transmission,model);
     }
 
     @Override
