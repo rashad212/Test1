@@ -5,6 +5,7 @@ import javax.swing.*;
 public class Main {
     public static void main(String[] args) {
 
+
         Animal a = new Animal("Mia");
         Car b = new Car("bmw");
         Obyekt c = new Obyekt("stol");
@@ -17,11 +18,8 @@ public class Main {
         GenericBox [] boxArr={box1, box2, box3};
 
         for (GenericBox box:boxArr) {
-           box.print();
+            box.print();
         }
-
-
-
     }
 }
 

@@ -1,16 +1,16 @@
 package GenericPractice;
 
 public class Car {
-    String bmw;
+    String car;
 
-    Car(String bmw){
-        this.bmw=bmw;
+    Car(String car){
+        this.car = car;
     }
 
     @Override
     public String toString() {
         return "Car{" +
-                "bmw='" + bmw + '\'' +
+                "bmw='" + car + '\'' +
                 '}';
     }
 }
