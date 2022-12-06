@@ -1,14 +1,10 @@
 package December_5_2022.Task1;
 
-public class Developer extends Employers {
-    String name;
-    String surname;
-    Integer experience;
+public class Developer extends Employer {
 
-    public Developer (String name, String surname, Integer experience) {
-        this.name = name;
-        this.surname = surname;
-        this.experience = experience;
+
+    public Developer(String name, String surname, Integer experience) {
+        super(name, surname, experience);
     }
 
     public String getName() {
@@ -34,4 +30,7 @@ public class Developer extends Employers {
     public void setExperience(Integer experience) {
         this.experience = experience;
     }
+
+
+
 }
