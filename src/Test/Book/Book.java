@@ -1,4 +1,4 @@
-package Test;
+package Test.Book;
 
 public class Book {
     public String name, author;

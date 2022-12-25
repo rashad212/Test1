@@ -1,4 +1,6 @@
-package Test;
+package Test.Book;
+
+import Test.Book.Book;
 
 public class Book01 {
     public static void main(String[] args) {

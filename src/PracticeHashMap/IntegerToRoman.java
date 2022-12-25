@@ -10,7 +10,7 @@ public class IntegerToRoman {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the Integer value you want to change:");
+        System.out.print("Enter the Integer value you want to change: ");
         int input = sc.nextInt();
 
         LinkedHashMap<String, Integer> map = new LinkedHashMap<>();
@@ -35,8 +35,8 @@ public class IntegerToRoman {
             while (input >= x.getValue()) {
                 input = input - x.getValue();
                 sb.append(x.getKey());
-                System.out.println(sb);}
-
+                System.out.println(sb);
+            }
         }
     }
 }
