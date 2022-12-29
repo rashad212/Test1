@@ -26,17 +26,13 @@ public class Consmr {
 
 
         Consumer<User> consumer = (User x) -> System.out.println(x);
-        forEach(list, consumer);
+//        forEach(list, consumer);
+        list.forEach(consumer);
 
         if(LocalDate.now().isAfter( u1.getExpdate()))
             throw new ExpiredCardException();
 
     }
 
-    static <T> void forEach(List<T> list, Consumer<T> consumer) {
-        for (T t : list) {
-            consumer.accept(t);
-        }
-    }
 
 }
