@@ -1,4 +1,4 @@
-package Practice.Lambda;
+package Practice.LambdaPractice;
 
 import java.time.LocalDate;
 
@@ -12,6 +12,38 @@ public class User {
         this.name = name;
         this.surname = surname;
         this.birthdate = birthdate;
+        this.expdate = expdate;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public LocalDate getBirthdate() {
+        return birthdate;
+    }
+
+    public void setBirthdate(LocalDate birthdate) {
+        this.birthdate = birthdate;
+    }
+
+    public LocalDate getExpdate() {
+        return expdate;
+    }
+
+    public void setExpdate(LocalDate expdate) {
         this.expdate = expdate;
     }
 

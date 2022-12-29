@@ -1,9 +1,9 @@
-package Practice.Lambda;
+package Practice.LambdaPractice;
+
+import BankTransfer.Exceptions.ExpiredCardException;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 
@@ -28,10 +28,8 @@ public class Consmr {
         Consumer<User> consumer = (User x) -> System.out.println(x);
         forEach(list, consumer);
 
-        LocalDate LocalDateTime = null;
-        if (!u1.expdate.equals(LocalDateTime)){
-            throw new ExpairDateException();
-        }
+        if(LocalDate.now().isAfter( u1.getExpdate()))
+            throw new ExpiredCardException();
 
     }
 
