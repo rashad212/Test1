@@ -15,30 +15,30 @@ public enum Months {
     DECEMBER(12, "Dekabr", "Декабрь", "Aralık");
 
     int x;
-    String a;
-    String r;
-    String t;
+    String az;
+    String ru;
+    String tr;
 
     public int getX() {
         return x;
     }
 
-    public String getA() {
-        return a;
+    public String getAz() {
+        return az;
     }
 
-    public String getR() {
-        return r;
+    public String getRu() {
+        return ru;
     }
 
-    public String getT() {
-        return t;
+    public String getTr() {
+        return tr;
     }
 
     Months(int x, String a, String r, String t) {
         this.x = x;
-        this.a = a;
-        this.r = r;
-        this.t = t;
+        this.az = a;
+        this.ru = r;
+        this.tr = t;
     }
 }

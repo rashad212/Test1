@@ -13,40 +13,40 @@ public class Main {
 
             switch (z) {
                 case JANUARY -> {
-                    System.out.println(Months.JANUARY.getA() + " " + Months.JANUARY.getT() + " " + Months.JANUARY.getR() + " " + Months.JANUARY.getX());
+                    System.out.println(Months.JANUARY.getAz() + " " + Months.JANUARY.getTr() + " " + Months.JANUARY.getRu() + " " + Months.JANUARY.getX());
                 }
                 case FEBRUARY -> {
-                    System.out.println(Months.FEBRUARY.getA() + " " + Months.FEBRUARY.getT() + " " + Months.FEBRUARY.getR() + " " + Months.FEBRUARY.getX());
+                    System.out.println(Months.FEBRUARY.getAz() + " " + Months.FEBRUARY.getTr() + " " + Months.FEBRUARY.getRu() + " " + Months.FEBRUARY.getX());
                 }
                 case MARCH -> {
-                    System.out.println(Months.MARCH.getA() + " " + Months.MARCH.getT() + " " + Months.MARCH.getR() + " " + Months.MARCH.getX());
+                    System.out.println(Months.MARCH.getAz() + " " + Months.MARCH.getTr() + " " + Months.MARCH.getRu() + " " + Months.MARCH.getX());
                 }
                 case APRIL -> {
-                    System.out.println(Months.APRIL.getA() + " " + Months.APRIL.getT() + " " + Months.APRIL.getR() + " " + Months.APRIL.getX());
+                    System.out.println(Months.APRIL.getAz() + " " + Months.APRIL.getTr() + " " + Months.APRIL.getRu() + " " + Months.APRIL.getX());
                 }
                 case MAY -> {
-                    System.out.println(Months.MAY.getA() + " " + Months.MAY.getT() + " " + Months.MAY.getR() + " " + Months.MAY.getX());
+                    System.out.println(Months.MAY.getAz() + " " + Months.MAY.getTr() + " " + Months.MAY.getRu() + " " + Months.MAY.getX());
                 }
                 case JUNE -> {
-                    System.out.println(Months.JUNE.getA() + " " + Months.JUNE.getT() + " " + Months.JUNE.getR() + " " + Months.JUNE.getX());
+                    System.out.println(Months.JUNE.getAz() + " " + Months.JUNE.getTr() + " " + Months.JUNE.getRu() + " " + Months.JUNE.getX());
                 }
                 case JULY -> {
-                    System.out.println(Months.JULY.getA() + " " + Months.JULY.getT() + " " + Months.JULY.getR() + " " + Months.JULY.getX());
+                    System.out.println(Months.JULY.getAz() + " " + Months.JULY.getTr() + " " + Months.JULY.getRu() + " " + Months.JULY.getX());
                 }
                 case AUGUST -> {
-                    System.out.println(Months.AUGUST.getA() + " " + Months.AUGUST.getT() + " " + Months.AUGUST.getR() + " " + Months.AUGUST.getX());
+                    System.out.println(Months.AUGUST.getAz() + " " + Months.AUGUST.getTr() + " " + Months.AUGUST.getRu() + " " + Months.AUGUST.getX());
                 }
                 case SEPTEMBER -> {
-                    System.out.println(Months.SEPTEMBER.getA() + " " + Months.SEPTEMBER.getT() + " " + Months.SEPTEMBER.getR() + " " + Months.SEPTEMBER.getX());
+                    System.out.println(Months.SEPTEMBER.getAz() + " " + Months.SEPTEMBER.getTr() + " " + Months.SEPTEMBER.getRu() + " " + Months.SEPTEMBER.getX());
                 }
                 case OCTOBER -> {
-                    System.out.println(Months.OCTOBER.getA() + " " + Months.OCTOBER.getT() + " " + Months.OCTOBER.getR() + " " + Months.OCTOBER.getX());
+                    System.out.println(Months.OCTOBER.getAz() + " " + Months.OCTOBER.getTr() + " " + Months.OCTOBER.getRu() + " " + Months.OCTOBER.getX());
                 }
                 case NOVEMBER -> {
-                    System.out.println(Months.NOVEMBER.getA() + " " + Months.NOVEMBER.getT() + " " + Months.NOVEMBER.getR() + " " + Months.NOVEMBER.getX());
+                    System.out.println(Months.NOVEMBER.getAz() + " " + Months.NOVEMBER.getTr() + " " + Months.NOVEMBER.getRu() + " " + Months.NOVEMBER.getX());
                 }
                 case DECEMBER -> {
-                    System.out.println(Months.DECEMBER.getA() + " " + Months.DECEMBER.getT() + " " + Months.DECEMBER.getR() + " " + Months.DECEMBER.getX());
+                    System.out.println(Months.DECEMBER.getAz() + " " + Months.DECEMBER.getTr() + " " + Months.DECEMBER.getRu() + " " + Months.DECEMBER.getX());
                 }
 
             }

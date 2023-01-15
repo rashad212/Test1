@@ -11,7 +11,7 @@ public class TestEnum {
 
     }
     static void ayRus(Months ay) {
-        System.out.println(ay + " " + Months.JANUARY.getR());
+        System.out.println(ay + " " + Months.JANUARY.getRu());
 
     }
 }

@@ -21,6 +21,6 @@ public class MainTest {
     }
 
     static void rus(Months ay){
-        System.out.println(ay.getR());
+        System.out.println(ay.getRu());
     }
     }

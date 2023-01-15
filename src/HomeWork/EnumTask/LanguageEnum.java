@@ -5,13 +5,4 @@ public enum LanguageEnum {
     EN,
     RU,
     TR;
-
-    String x;
-
-    public String getX() {
-        return x;
-    }
-
-    LanguageEnum() {
-    }
 }
