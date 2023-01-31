@@ -42,18 +42,19 @@ public class infnteStream {
 //        generate.limit(10).forEach(System.out::println);
 
         //count average
-        DoubleStream generate = DoubleStream.of(125, 4.9, 11.11, 18.45, 25.4);
-        DoubleSummaryStatistics summaryStatistics = generate.summaryStatistics();
+//        DoubleStream generate = DoubleStream.of(125, 4.9, 11.11, 18.45, 25.4);
+//        DoubleSummaryStatistics summaryStatistics = generate.summaryStatistics();
+//
+//
+//        double average = summaryStatistics.getAverage();
+//        System.out.println("average is: " + average);
+//        long count = summaryStatistics.getCount();
+//        System.out.println("count is: " + count);
+//        double min = summaryStatistics.getMin();
+//        System.out.println("Minimum value is: " + min);
+//        double max = summaryStatistics.getMax();
+//        System.out.println("Maximum value is: " + max);
 
-
-        double average = summaryStatistics.getAverage();
-        System.out.println("average is: " + average);
-        long count = summaryStatistics.getCount();
-        System.out.println("count is: " + count);
-        double min = summaryStatistics.getMin();
-        System.out.println("Minimum value is: " + min);
-        double max = summaryStatistics.getMax();
-        System.out.println("Maximum value is: " + max);
 
 
     }
