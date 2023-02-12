@@ -5,11 +5,10 @@ public class Main {
 
         AnnotationsExp str = new AnnotationsExp();
 
-      if (str.getClass().isAnnotationPresent(CheckString.class)){
-          System.out.println("String");
-      } else {
-          System.out.println("Not String");
-      }
-
+        if (str.getClass().isAnnotationPresent(CheckString.class)) {
+            System.out.println("String");
+        } else {
+            System.out.println("Not String");
+        }
     }
 }
