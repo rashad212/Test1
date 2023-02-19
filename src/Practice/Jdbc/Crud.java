@@ -38,7 +38,6 @@ public class Crud {
         ResultSet rs = pt.executeQuery();
 
         while(rs.next()) {
-
             System.out.println(rs.getInt("id") + " - " + rs.getString("name") + " - " + rs.getString("surname"));
         }
 
